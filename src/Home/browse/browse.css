@@ -1,0 +1,28 @@
+#browse {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10%;
+}
+#browse-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#browse-img img {
+  width: 250px;
+  height: 320px;
+  margin: 10px;
+}
+#cent {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #browse-img img {
+    width: 95px;
+    height: 200px;
+    margin: 10px;
+  }
+}

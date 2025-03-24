@@ -1,0 +1,87 @@
+.big-blog {
+  margin-top: 106px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.image-blog {
+  width: 100%;
+}
+
+.background-blog-header {
+  background-image: url(../public/blurr/1.png);
+  width: 100%;
+  height: 316px;
+  background-size: 100% 316px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-icons {
+  display: flex;
+}
+.icons-blog-dev {
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+.icons-blog-parg {
+  margin-right: 5px;
+  color: #9f9f9f;
+}
+.icons-blog-parg:hover {
+  color: #b88e2f;
+}
+.blog-cont {
+  max-width: 60%;
+}
+.blog-dis {
+  color: #9f9f9f;
+}
+.every-ost-blog {
+  margin-bottom: 55px;
+}
+.read-more-blog {
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+.read-more-blog:hover {
+  border: none;
+  width: 150px;
+  height: 20px;
+  background-color: #b88e2f;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .icons-blog-dev {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .blog-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .big-blog {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .blog-cont {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,35 @@
+.billig-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+}
+
+.form-billing {
+  display: flex;
+  flex-direction: column;
+}
+.first-last-billing {
+  display: flex;
+  justify-content: space-around;
+}
+.name-billing {
+  margin: 1px;
+}
+.inp-billing {
+  margin: 12px 0px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  width: 90%;
+  height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .billig-cont {
+    padding: 0px;
+  }
+  .inp-billing {
+    width: 100%;
+  }
+}

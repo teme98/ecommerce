@@ -1,0 +1,96 @@
+#header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#main-site {
+  display: flex;
+}
+#main-site a {
+  text-decoration: none;
+  font-family: Poppins;
+  margin: 10px 37px;
+  color: black;
+}
+
+#main-name {
+  display: flex;
+}
+#main-name img {
+  width: 50px;
+  height: 32px;
+  margin: 0px;
+}
+#name-site {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  font-weight: 500px;
+  margin-left: 10px;
+}
+#main-shop a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 23px;
+}
+#main-shop {
+  margin-top: 10px;
+}
+#header-link:hover {
+  color: #b88e2f;
+}
+#link-style {
+  text-decoration: none;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
+#link-style:hover {
+  color: #b88e2f;
+}
+.shop-cart {
+  position: relative;
+}
+
+.notf-shop {
+  position: relative !important;
+  display: inline-block;
+}
+
+.numb-shop {
+  position: absolute !important;
+  top: -22px;
+  right: -8px;
+  background: rgb(236, 81, 81);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 50%;
+  min-width: 17px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 3px 0px;
+  }
+  #main-site a {
+    margin: 10px 15px;
+  }
+  #header-link {
+    margin: 0px;
+  }
+}

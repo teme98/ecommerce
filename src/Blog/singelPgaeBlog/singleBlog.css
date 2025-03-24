@@ -1,0 +1,22 @@
+.single-prod {
+  text-align: center;
+  margin: 100px 50px 50px 50px;
+}
+.btn-back-blog {
+  margin: 20px 0px;
+  text-decoration: none;
+  color: #b88e2f;
+  background-color: white;
+}
+.btn-back-blog:hover {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .single-prod {
+    margin-top: 170px;
+  }
+  .single-img-blog {
+    width: 100%;
+  }
+}

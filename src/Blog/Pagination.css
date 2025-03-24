@@ -1,0 +1,14 @@
+.active {
+  background-color: #b88e2f !important;
+  color: white !important;
+}
+
+#btn-pagin {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  color: black;
+  background-color: #f9f1e7;
+  cursor: pointer;
+}

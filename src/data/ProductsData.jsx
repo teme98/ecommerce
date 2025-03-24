@@ -1,0 +1,51 @@
+export const images = [
+  {
+    src: "/products/syltherine.png",
+    title: "Syltherine",
+    dis: "Stylish cafe chair",
+    id: 1,
+    price: 16999,
+  },
+  {
+    src: "/products/grifo.png",
+    title: "Grifo",
+    dis: "Night lamp",
+    id: 2,
+    price: 17999,
+  },
+  {
+    src: "/products/lolito.png",
+    title: "Lolito",
+    dis: "Luxury big sofa",
+    id: 3,
+    price: 25999,
+  },
+  {
+    src: "/products/muggo.png",
+    title: "Muggo",
+    dis: "Small mug",
+    id: 4,
+    price: 29999,
+  },
+  {
+    src: "/products/pingky.png",
+    title: "Pingky",
+    dis: "Cute bed set",
+    id: 5,
+    price: 19999,
+  },
+  {
+    src: "/products/respira.png",
+    title: "Respira",
+    dis: "Outdoor bar table and stool",
+    id: 6,
+    price: 23699,
+  },
+  {
+    src: "/products/potty.png",
+    title: "Potty",
+    dis: "Minimalist flower pot",
+    id: 7,
+    price: 30000,
+  },
+];

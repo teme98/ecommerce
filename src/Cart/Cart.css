@@ -1,0 +1,123 @@
+.table-cart {
+  background-color: #f9f1e7;
+  width: 70%;
+  height: 20px;
+}
+
+.table-cart,
+th,
+td,
+tr {
+  margin-right: 50px;
+}
+
+.btn-delete-cart {
+  background-color: white;
+  border: none;
+  color: #b88e2f;
+  cursor: pointer;
+}
+.btn-delete-cart:hover {
+  color: red;
+}
+.image-title-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#backg-body-table {
+  background-color: white !important;
+  border: none;
+  text-align: center;
+}
+
+.image-cart {
+  border-radius: 10px;
+  width: 80px;
+}
+.total-prise-div {
+  background-color: #f9f1e7;
+  width: 30%;
+  height: 320px;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.cont-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 20px;
+}
+.center-checkout-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+}
+#btn-check-cart {
+  margin-top: 10px;
+  width: 50%;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn-check-cart:hover {
+  background-color: #b88e2f;
+  color: white;
+}
+.cont-all-cart {
+  width: 100%;
+  display: flex;
+}
+.cont-cart-phone {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .cont-all-cart-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .cont-cart-phone {
+    display: block;
+  }
+  .cont-cart {
+    display: none;
+  }
+  .div-cart-phone {
+    background-color: #f9f1e7;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: calc(50% - 20px);
+  }
+  .on-cart-phone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .img-cart-phone {
+    width: 100%;
+    height: auto;
+  }
+  .qun-cart-phone {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .btn-delete-cart {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(202, 59, 59);
+  }
+  .total-prise-div {
+    width: 100%;
+    margin: 30px 1px;
+  }
+}

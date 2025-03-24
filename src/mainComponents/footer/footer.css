@@ -1,0 +1,71 @@
+#cont-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 90%;
+}
+
+#text-footer {
+  margin-left: 3%;
+}
+#footer-parg {
+  color: #9f9f9f;
+}
+#h4-footer {
+  color: #9f9f9f;
+}
+
+#link-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#link-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#help-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#help-footer a {
+  text-decoration: none;
+  color: black;
+}
+#btn-email {
+  color: black;
+  border-color: black;
+  margin-top: 4%;
+  margin-left: 7px;
+}
+#btn-email:hover {
+  color: white;
+  background-color: #b88e2f;
+  border: none;
+}
+
+#hr-footer {
+  width: 90%;
+  color: #d9d9d9;
+}
+
+#end-footer {
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  #news-footer {
+    display: none;
+  }
+  #cont-footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  #link-footer {
+    margin: 0px 20px;
+  }
+}

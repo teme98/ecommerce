@@ -1,0 +1,61 @@
+.div-placeorder {
+  width: 48%;
+  height: 50%;
+}
+.cont-check {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 100px;
+  text-align: center;
+}
+.div-bill {
+  width: 48%;
+}
+.plac-space {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* hello */
+.payment-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.description {
+  margin-left: 24px;
+  font-size: 14px;
+  color: #888;
+  max-width: 400px;
+}
+
+.btn-order {
+  width: 40%;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 20px;
+}
+.emp-check {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .cont-check {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-bill {
+    width: 100%;
+  }
+  .div-placeorder {
+    background-color: #f9f1e7;
+    width: 350px;
+    height: auto;
+  }
+}
