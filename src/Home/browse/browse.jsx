@@ -9,15 +9,24 @@ function Browse() {
 
         <div id="browse-img">
           <div id="cent">
-            <img className="img-browse" src="../public/browse/Dining.png" />
+            <img
+              className="img-browse"
+              src="https://raw.githubusercontent.com/teme98/ecommerce/refs/heads/main/public/browse/Dining.png"
+            />
             <p>Dining</p>
           </div>
           <div id="cent">
-            <img className="img-browse" src="../public/browse/Living.png" />
+            <img
+              className="img-browse"
+              src="https://raw.githubusercontent.com/teme98/ecommerce/refs/heads/main/public/browse/Living.png"
+            />
             <p>Living</p>
           </div>
           <div id="cent">
-            <img className="img-browse" src="../public/browse/Bedroom.png" />
+            <img
+              className="img-browse"
+              src="https://raw.githubusercontent.com/teme98/ecommerce/refs/heads/main/public/browse/Bedroom.png"
+            />
             <p>Bedroom</p>
           </div>
         </div>

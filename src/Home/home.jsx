@@ -7,7 +7,7 @@ import Grid from "./grid/grid";
 function Home() {
   return (
     <>
-      <img id="mask" src="../public/MaskHome1.png"></img>
+      <img id="mask" src="https://raw.githubusercontent.com/teme98/ecommerce/refs/heads/main/public/MaskHome1.png"></img>
       <Browse />
       <Products />
       <SlideBody />

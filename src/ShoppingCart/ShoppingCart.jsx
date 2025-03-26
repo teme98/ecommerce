@@ -8,7 +8,7 @@ function ShoppingCart() {
     <div>
       <div id="backgrond-contact">
         <div id="contact-icon">
-          <img src="../public/logoHd.svg" />
+          <img src="https://raw.githubusercontent.com/teme98/ecommerce/refs/heads/main/public/logoHd.svg" />
         </div>
         <h2>SHOP</h2>
         <div id="cont-contact">
