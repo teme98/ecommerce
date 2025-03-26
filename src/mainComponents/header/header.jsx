@@ -16,7 +16,7 @@ function Header() {
     <>
       <div id="header">
         <div id="main-name">
-          <img src="../public/logoHd.svg"></img>
+          <img src="https://raw.githubusercontent.com/teme98/ecommerce/refs/heads/main/public/logoHd.svg"></img>
 
           <div id="name-site">
             <Link id="link-style" to="/">
